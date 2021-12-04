@@ -1,0 +1,81 @@
+.bodycard {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .bodycard .subcard {
+    width: 550px;
+    height:200px;
+    margin-top: 20px;
+    align-self: center;
+    padding: 50px;
+    position: relative;
+    background: rgb(167, 208, 228);
+    border: 1px solid black;
+  }
+  
+  .bodycard .subcard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .bodycard .subcard .datetime {
+    position: absolute;
+    left: 10px;
+    margin-top: -8px;
+  }
+
+  .bodycard .weather-main {
+    position: absolute; 
+    top: 120px;
+    left: 310px;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .bodycard .weather-icon {
+    width: 100px; 
+    position: absolute;
+    top: 50px;
+  }
+ 
+  .bodycard .weather-description {
+    position: absolute;
+    left: 10px;
+    font-size: 1.4rem;
+  }
+
+  .bodycard .wild {
+    position: absolute;
+    left: 10px;
+    margin-top: 28px;
+    font-size: 1.4rem;
+  }
+  .bodycard .cloudcover {
+    position: absolute;
+    left: 10px;
+    margin-top: 48px;
+    font-size: 1.4rem;
+  }
+
+  .bodycard .cloudcover {
+    position: absolute;
+    left: 10px;
+    margin-top: 48px;
+    font-size: 1.4rem;
+  }
+  
+  .bodycard .sunset {
+    position: absolute;
+    left: 10px;
+    margin-top: 68px;
+    font-size: 1.4rem;
+  }
+  
+  .bodycard .sunrise {
+    position: absolute;
+    left: 10px;
+    margin-top: 88px;
+    font-size: 1.4rem;
+  }

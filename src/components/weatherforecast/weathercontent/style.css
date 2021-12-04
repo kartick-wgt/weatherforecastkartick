@@ -1,0 +1,46 @@
+.card {
+    margin-top: 74px;
+    border: 1px solid black;
+    width: max-content;
+    padding: 0px 21px 21px 21px;
+    margin-left: 24%;
+  }
+  .card .title {
+    font-size: 4rem;
+    text-decoration: underline;
+  }
+  .card form {
+    margin-top: 25px;
+  }
+  .card input {
+    padding: 10px;
+    margin-right: 25px;
+  }
+  
+  .card input:focus {
+    outline: none;
+    border: 3px solid rgb(2, 57, 88);
+  }
+  
+  .card .submitbutton {
+    padding: 7px;
+    font-size: 1rem;
+    border: none;
+    border: 1px solid rgb(230, 219, 219);
+    background: rgba(236, 58, 58, 0.8);
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  
+  .card .submitbutton:hover {
+    background: transparent;
+    color: rgb(117, 37, 37);
+  }
+  
+  .error{
+    color:red;
+    position: absolute;
+  }
+  
+  
+  
